@@ -19,9 +19,8 @@ namespace ConsoleApp1
             Console.SetCursorPosition(10, 12);
             Console.WriteLine();
             Console.ReadLine();
-            
 
-            vypocet = (2021 - rok);
+            vypocet = ( - rok);
             if (vypocet > 100) 
             Console.WriteLine("Neplatny rok narození");
             if (vypocet < 100) 
